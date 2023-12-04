@@ -13,45 +13,40 @@
     <form action="/pegawai/update" method="post">
         {{ csrf_field() }}
         <input type="hidden" name="id" value="{{ $p->pegawai_id }}"> <br/>
-        <div class="form-group">
-            <div class="card mb-8" style="max-width: 100%;">
-                <div class="row no-gutters">
+        <div class="form-group" style="padding-top: 20px; padding-bottom: 20px;">
+            <div class="card mb-8" style="max-width: 100%; padding: 20px;">
+                <div class="row">
                     <div class="col-md-4">
-                        <img src="" class="card-img" alt="...">
+                        <div class="form-group" style="border: 1px solid #ccc; padding: 40%;">
+                            <img src="..." class="card-img" alt="..." style="width: 100%;">
+                        </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="form-group mr-4">
-                            <label for="nama" class="col-xs-3 col-form-label mr-2">Nama</label>
-                            <div class="col-xs-9">
-                                <div class="form-control">{{ $p->pegawai_nama }}</div>
-                            </div>
-                        </div>
-                        <div class="form-group mr-4">
-                            <label for="umur" class="col-xs-3 col-form-label mr-2">Jabatan</label>
-                            <div class="col-xs-9">
-                                <div class="form-control">{{ $p->pegawai_jabatan }}</div>
-                            </div>
-                        </div>
-                        <div class="form-group mr-4">
-                            <label for="divisi" class="col-xs-3 col-form-label mr-2">Umur</label>
-                            <div class="col-xs-9">
-                                <div class="form-control">{{ $p->pegawai_umur }}</div>
-                            </div>
-                        </div>
-                        <div class="form-group mr-4">
-                            <label for="alamat" class="col-xs-3 col-form-label mr-2">Alamat</label>
-                            <div class="col-xs-9">
-                                <div class="form-control">{{ $p->pegawai_alamat }}</div>
-                                <br/>
-                                <a href="/pegawai" class="btn btn-primary"> OK</a>
-                                <br/>
-                            </div>
-                        </div>
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="padding-bottom: 10px;"><label for="nama" class="col-xs-3 col-form-label mr-2">Nama</label></td>
+                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_nama }}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 10px;"><label for="jabatan" class="col-xs-3 col-form-label mr-2">Jabatan</label></td>
+                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_jabatan }}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 10px;"><label for="umur" class="col-xs-3 col-form-label mr-2">Umur</label></td>
+                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_umur }}</div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-bottom: 10px;"><label for="alamat" class="col-xs-3 col-form-label mr-2">Alamat</label></td>
+                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_alamat }}</div></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <a href="/pegawai" class="btn btn-primary"> OK</a>
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
     </form>
-
     @endforeach
 @endsection
