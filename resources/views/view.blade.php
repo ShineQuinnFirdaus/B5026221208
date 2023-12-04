@@ -20,25 +20,25 @@
                         <img src="" class="card-img" alt="...">
                     </div>
                     <div class="col-md-8">
-                        <div class="form-group">
+                        <div class="form-group mr-4">
                             <label for="nama" class="col-xs-3 col-form-label mr-2">Nama</label>
                             <div class="col-xs-9">
                                 <div class="form-control">{{ $p->pegawai_nama }}</div>
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group mr-4">
                             <label for="umur" class="col-xs-3 col-form-label mr-2">Jabatan</label>
                             <div class="col-xs-9">
                                 <div class="form-control">{{ $p->pegawai_jabatan }}</div>
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group mr-4">
                             <label for="divisi" class="col-xs-3 col-form-label mr-2">Umur</label>
                             <div class="col-xs-9">
                                 <div class="form-control">{{ $p->pegawai_umur }}</div>
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group mr-4">
                             <label for="alamat" class="col-xs-3 col-form-label mr-2">Alamat</label>
                             <div class="col-xs-9">
                                 <div class="form-control">{{ $p->pegawai_alamat }}</div>
