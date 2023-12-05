@@ -31,17 +31,18 @@
                 <tr>
                     <td><label for="umur" class="col-xs-3 col-form-label mr-2">Umur</label></td>
                     <td><div class="col-xs-9">
-                        <input type="number" class="form-control" id="umur" name="umur" placeholder="Masukkan umur pegawai" required="required">
+                        <input type="number" class="form-control" id="umur" name="umur" required="required">
                     </div></td>
                 </tr>
                 <tr>
                     <td><label for="alamat" class="col-xs-3 col-form-label mr-2">Alamat</label></td>
                     <td><div class="col-xs-9">
-                        <textarea type="text" class="form-control" id="alamat" name="alamat" placeholder="Masukkan alamat pegawai" required="required"></textarea>
+                        <textarea type="text" class="form-control" id="alamat" name="alamat" required="required"></textarea>
                     </div></td>
                 </tr>
             </table>
         </div>
         <input type="submit" value="Simpan Data" class="btn btn-success">
     </form>
+
 @endsection
