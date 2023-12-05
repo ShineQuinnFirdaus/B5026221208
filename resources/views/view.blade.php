@@ -25,19 +25,19 @@
                         <table style="width: 100%;">
                             <tr>
                                 <td style="padding-bottom: 10px;"><label for="nama" class="col-xs-3 col-form-label mr-2">Nama</label></td>
-                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_nama }}</div></td>
+                                <td style="padding-bottom: 10px;"><div class readonly class="form-control-plaintext">{{ $p->pegawai_nama }}</div></td>
                             </tr>
                             <tr>
                                 <td style="padding-bottom: 10px;"><label for="jabatan" class="col-xs-3 col-form-label mr-2">Jabatan</label></td>
-                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_jabatan }}</div></td>
+                                <td style="padding-bottom: 10px;"><div class readonly class="form-control-plaintext">{{ $p->pegawai_jabatan }}</div></td>
                             </tr>
                             <tr>
                                 <td style="padding-bottom: 10px;"><label for="umur" class="col-xs-3 col-form-label mr-2">Umur</label></td>
-                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_umur }}</div></td>
+                                <td style="padding-bottom: 10px;"><div class readonly class="form-control-plaintext">{{ $p->pegawai_umur }}</div></td>
                             </tr>
                             <tr>
                                 <td style="padding-bottom: 10px;"><label for="alamat" class="col-xs-3 col-form-label mr-2">Alamat</label></td>
-                                <td style="padding-bottom: 10px;"><div class="form-control">{{ $p->pegawai_alamat }}</div></td>
+                                <td style="padding-bottom: 10px;"><div class readonly class="form-control-plaintext">{{ $p->pegawai_alamat }}</div></td>
                             </tr>
                         </table>
                         <br>
