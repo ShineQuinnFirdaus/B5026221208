@@ -66,3 +66,12 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index2');
 Route::get('/nilaikuliah/tambah3','App\Http\Controllers\NilaiKuliahController@tambah3');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
 
+//Route CRUD sepedamotor
+Route::get('/sepedamotor','App\Http\Controllers\SepedaMotorController@index4');
+Route::get('/sepedamotor/tambah4','App\Http\Controllers\SepedaMotorController@tambah4');
+Route::get('/sepedamotor/edit2/{id}','App\Http\Controllers\SepedaMotorController@edit2');
+Route::get('/sepedamotor/hapus/{id}','App\Http\Controllers\SepedaMotorController@hapus');
+Route::get('/sepedamotor/cari','App\Http\Controllers\SepedaMotorController@cari');
+Route::post('/sepedamotor/update','App\Http\Controllers\SepedaMotorController@update');
+Route::post('/sepedamotor/store','App\Http\Controllers\SepedaMotorController@store');
+Route::get('/sepedamotor/lihat','App\Http\Controllers\SepedaMotorController@lihat');
