@@ -25,12 +25,12 @@
                         <table style="width: 100%;">
                             <tr>
                                 <td style="padding-bottom: 10px;"><label for="nama" class="col-xs-3 col-form-label mr-2">Nama</label></td>
-                                <td style="padding-bottom: 10px;"><div class readonly class="form-control-plaintext">{{ $p->pegawai_nama }}</div></td>
+                                <td style="padding-bottom: 10px;"><div class readonly class="form-control-plaintext">{{ $p->Nama }}</div></td>
                             </tr>
                             <tr>
                         </table>
                         <br>
-                        <a href="/pegawai" class="btn btn-primary"> OK</a>
+                        <a href="/kategori" class="btn btn-primary"> OK</a>
                         <br>
                     </div>
                 </div>

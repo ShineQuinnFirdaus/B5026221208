@@ -78,5 +78,5 @@ Route::get('/sepedamotor/lihat','App\Http\Controllers\SepedaMotorController@liha
 
 //Route CRUD kategori
 Route::get('/kategori','App\Http\Controllers\KategoriController@index5');
-Route::get('/kategori/tambah5','App\Http\Controllers\KategoriController@tambah5');
-Route::post('/kategori/store','App\Http\Controllers\KategoriController@store');
+Route::post('/kategori/tambah5','App\Http\Controllers\KategoriController@tambah5');
+

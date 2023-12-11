@@ -1,16 +1,16 @@
 @extends('master')
 
-@section('title','Edit Kategori')
+@section('title', 'Kategori')
 
 @section('konten')
+<br>
+
+<div class="container mt-4">
+    <h1>Anda telah memilih Kategori dengan Kode:
+        {{ $selectedKategoriId }}
+    </h1>
+</div>
 
 
-    <h3>Anda telah Memilih Kategori dengan Kode :</h3>
-
-    <a href="/kategori" class="btn btn-primary"> Kembali</a>
-
-    <br/>
-    <br/>
-
-    </form>
+<a class="btn btn-success"href="/kategori">OK</a>
 @endsection
