@@ -1,10 +1,10 @@
 @extends('master')
 
-@section('title', 'Data Buku')
+@section('title', 'Data Sepeda Motor')
 
 @section('konten')
 
-	<h3>Data Buku</h3>
+	<h3>Data Sepeda Motor</h3>
 
 	<a href="/sepedamotor" class="btn btn-primary"> Kembali</a>
 
